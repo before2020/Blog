@@ -1,0 +1,64 @@
+body {
+    font-family: "DejaVu Sans Mono", sans-serif;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+a, label {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.side-bar {
+    position: fixed;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(65, 58, 58, 0.9);
+}
+
+.side-bar .header {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.side-bar .header a {
+    font-size: 40px;
+    color: rgb(253, 194, 231);
+}
+
+.side-bar .nav a {
+    display: inline-block;
+    margin: 20px auto 0 80px;
+}
+
+.side-bar .tag-list {
+    margin-top: 50px;
+}
+
+.side-bar .tag-list a, label {
+    display: inline-block;
+    margin: 20px auto 0 80px;
+}
+
+.main {
+    float: right;
+    width: 70%;
+}
+
+.article-list .title {
+    color: gray;
+}
+
+.article-list .status {
+    font-size: 16px;
+    color: #808080;
+}
+
+.article-list p {
+    width: 85%;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
